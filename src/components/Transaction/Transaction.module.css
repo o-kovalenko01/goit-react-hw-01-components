@@ -1,0 +1,27 @@
+.table {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  padding: 10px;
+
+  border: 1px solid #ddd;
+}
+
+.table th {
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #49e7f2;
+}
+
+.table td {
+  text-transform: capitalize;
+}
+
+.table tr:nth-child(even) {
+  background-color: #cecece; /* Змініть цей колір на той, який вам потрібен */
+}
